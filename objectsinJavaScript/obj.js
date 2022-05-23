@@ -7,6 +7,8 @@ const person = {
 }
 
 console.log("The name of person is:" + person.personName + "  " +
-    "The gender of person is:" + person.personGender
+    "The gender of person is:" + person.personGender + " " +
+    "The DOB of Person is:" + person["personDOB"]
+
 
 );
