@@ -22,7 +22,9 @@ console.log(MOD);
 let inc = ++x
 console.log("increment" + inc)
 
-let dec = --x
+let dec = --
+    x;
+
 console.log("Decrement" + dec);
 
 console.log(5 & 1)
