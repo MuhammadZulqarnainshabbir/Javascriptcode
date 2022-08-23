@@ -32,3 +32,14 @@ console.log(text.includes("rain"))
 
 // now lets add the start search postion
 console.log(text.includes("rain", 8)) // the return value will be false as includes couldnot find rain when it start searching from 8th index
+
+
+//startWith() checks if the string starts with a particular value
+
+let greet = "Hello World"
+console.log(greet.startsWith("Hello"))
+console.log(greet.startsWith("Hello", 4))
+// Similary there is a method endsWith() 
+
+console.log(greet.endsWith("World"))
+console.log(greet.endsWith("Hello", -1))
