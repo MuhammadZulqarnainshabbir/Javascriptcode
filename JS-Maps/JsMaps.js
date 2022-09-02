@@ -37,3 +37,5 @@ fruits.forEach(function (value, key) {
 for (const x of fruits.entries()) {
     console.log(x)
 }
+
+
